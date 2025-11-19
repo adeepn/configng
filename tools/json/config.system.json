@@ -91,14 +91,15 @@
                     "sub": [
                         {
                             "id": "STO001",
-                            "description": "Install",
+                            "description": "Install to internal media",
+                            "short": "Install",
                             "module": "module_generic",
                             "command": [
-                                "armbian-install"
+                                "module_partitioner autoinstall"
                             ],
-                            "status": "Preview",
-                            "author": "@igorpecovnik",
-                            "condition": "[[ -f /sbin/armbian-install || -f /usr/bin/armbian-install ]]"
+                            "status": "review",
+                            "author": "@adeepn",
+                            "condition": ""
                         },
                         {
                             "id": "ROO001",
