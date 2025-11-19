@@ -97,7 +97,7 @@
                             "command": [
                                 "module_partitioner autoinstall"
                             ],
-                            "status": "review",
+                            "status": "Preview",
                             "author": "@adeepn",
                             "condition": ""
                         },
